@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="en" xmlns:th="http://www.thymeleaf.org">
 
     <head>
         <!-- meta data -->
@@ -10,56 +10,56 @@
 
         <!--font-family-->
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-        
+
         <!-- title of site -->
         <title>Directory Landing Page</title>
 
         <!-- For favicon png -->
-		<link rel="shortcut icon" type="image/icon" href="static/assets/logo/favicon.png"/>
-       
+		<link rel="shortcut icon" type="image/icon" href="/static/bootstrap/logo/favicon.png"/>
+
         <!--font-awesome.min.css-->
-        <link rel="stylesheet" href="static/assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/static/bootstrap/css/font-awesome.min.css">
 
         <!--linear icon css-->
-		<link rel="stylesheet" href="static/assets/css/linearicons.css">
+		<link rel="stylesheet" href="/static/bootstrap/css/linearicons.css">
 
 		<!--animate.css-->
-        <link rel="stylesheet" href="static/assets/css/animate.css">
+        <link rel="stylesheet" href="/static/bootstrap/css/animate.css">
 
 		<!--flaticon.css-->
-        <link rel="stylesheet" href="static/assets/css/flaticon.css">
+        <link rel="stylesheet" href="/static/bootstrap/css/flaticon.css">
 
 		<!--slick.css-->
-        <link rel="stylesheet" href="static/assets/css/slick.css">
-		<link rel="stylesheet" href="static/assets/css/slick-theme.css">
-		
+        <link rel="stylesheet" href="/static/bootstrap/css/slick.css">
+		<link rel="stylesheet" href="/static/bootstrap/css/slick-theme.css">
+
         <!--bootstrap.min.css-->
-        <link rel="stylesheet" href="static/assets/css/bootstrap.min.css">
-		
+        <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+
 		<!-- bootsnav -->
-		<link rel="stylesheet" href="static/assets/css/bootsnav.css" >
-        
+		<link rel="stylesheet" href="/static/bootstrap/css/bootsnav.css" >
+
         <!--style.css-->
-        <link rel="stylesheet" href="static/assets/css/style.css">
-        
+        <link rel="stylesheet" href="/static/bootstrap/css/style.css">
+
         <!--responsive.css-->
-        <link rel="stylesheet" href="static/assets/css/responsive.css">
-        
+        <link rel="stylesheet" href="/static/bootstrap/css/responsive.css">
+
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		
+
         <!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
     </head>
-	
+
 	<body>
 		<!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-		
+
 		<!--header-top start -->
 		<header id="header-top" class="header-top">
 			<ul>
@@ -102,7 +102,7 @@
 					</div>
 				</li>
 			</ul>
-					
+
 		</header><!--/.header-top-->
 		<!--header-top end -->
 
@@ -150,7 +150,7 @@
 				<div class="welcome-hero-txt">
 					<h2>best place to find and explore <br> that all you need </h2>
 					<p>
-						Find Best Place, Restaurant, Hotel, Real State and many more think in just One click 
+						Find Best Place, Restaurant, Hotel, Real State and many more think in just One click
 					</p>
 				</div>
 				<div class="welcome-hero-serch-box">
@@ -176,7 +176,7 @@
 					</div>
 					<div class="welcome-hero-serch">
 						<button class="welcome-hero-btn" onclick="window.location.href='#'">
-							 search  <i data-feather="search"></i> 
+							 search  <i data-feather="search"></i>
 						</button>
 					</div>
 				</div>
@@ -258,7 +258,7 @@
 								</div>
 								<h2><a href="#">choose <span> what to</span> do</a></h2>
 								<p>
-									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua. 
+									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua.
 								</p>
 								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
 									read more
@@ -272,7 +272,7 @@
 								</div>
 								<h2><a href="#">find <span> what you want</span></a></h2>
 								<p>
-									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua. 
+									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua.
 								</p>
 								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
 									read more
@@ -286,7 +286,7 @@
 								</div>
 								<h2><a href="#">explore <span> amazing</span> place</a></h2>
 								<p>
-									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua. 
+									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua.
 								</p>
 								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
 									read more
@@ -296,7 +296,7 @@
 					</div>
 				</div>
 			</div><!--/.container-->
-		
+
 		</section><!--/.works-->
 		<!--works end -->
 
@@ -312,7 +312,7 @@
 						<div class=" col-md-4 col-sm-6">
 							<div class="single-explore-item">
 								<div class="single-explore-img">
-									<img src="static/assets/images/explore/e1.jpg" alt="explore image">
+									<img src="/static/bootstrap/images/explore/e1.jpg" alt="explore image">
 									<div class="single-explore-img-info">
 										<button onclick="window.location.href='#'">best rated</button>
 										<div class="single-explore-image-icon-box">
@@ -335,7 +335,7 @@
 									<h2><a href="#">tommy helfinger bar</a></h2>
 									<p class="explore-rating-price">
 										<span class="explore-rating">5.0</span>
-										<a href="#"> 10 ratings</a> 
+										<a href="#"> 10 ratings</a>
 										<span class="explore-price-box">
 											form
 											<span class="explore-price">5$-300$</span>
@@ -347,13 +347,13 @@
 											<div class="col-sm-2">
 												<div class="explore-person-img">
 													<a href="#">
-														<img src="static/assets/images/explore/person.png" alt="explore person">
+														<img src="/static/bootstrap/images/explore/person.png" alt="explore person">
 													</a>
 												</div>
 											</div>
 											<div class="col-sm-10">
 												<p>
-													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua.... 
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....
 												</p>
 											</div>
 										</div>
@@ -378,7 +378,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="single-explore-item">
 								<div class="single-explore-img">
-									<img src="static/assets/images/explore/e2.jpg" alt="explore image">
+									<img src="/static/bootstrap/images/explore/e2.jpg" alt="explore image">
 									<div class="single-explore-img-info">
 										<button onclick="window.location.href='#'">featured</button>
 										<div class="single-explore-image-icon-box">
@@ -401,7 +401,7 @@
 									<h2><a href="#">swim and dine resort</a></h2>
 									<p class="explore-rating-price">
 										<span class="explore-rating">4.5</span>
-										<a href="#"> 8 ratings</a> 
+										<a href="#"> 8 ratings</a>
 										<span class="explore-price-box">
 											form
 											<span class="explore-price">50$-500$</span>
@@ -413,13 +413,13 @@
 											<div class="col-sm-2">
 												<div class="explore-person-img">
 													<a href="#">
-														<img src="static/assets/images/explore/person.png" alt="explore person">
+														<img src="/static/bootstrap/images/explore/person.png" alt="explore person">
 													</a>
 												</div>
 											</div>
 											<div class="col-sm-10">
 												<p>
-													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua.... 
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....
 												</p>
 											</div>
 										</div>
@@ -444,7 +444,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="single-explore-item">
 								<div class="single-explore-img">
-									<img src="static/assets/images/explore/e3.jpg" alt="explore image">
+									<img src="/static/bootstrap/images/explore/e3.jpg" alt="explore image">
 									<div class="single-explore-img-info">
 										<button onclick="window.location.href='#'">best rated</button>
 										<div class="single-explore-image-icon-box">
@@ -467,7 +467,7 @@
 									<h2><a href="#">europe tour</a></h2>
 									<p class="explore-rating-price">
 										<span class="explore-rating">5.0</span>
-										<a href="#"> 15 ratings</a> 
+										<a href="#"> 15 ratings</a>
 										<span class="explore-price-box">
 											form
 											<span class="explore-price">5k$-10k$</span>
@@ -479,13 +479,13 @@
 											<div class="col-sm-2">
 												<div class="explore-person-img">
 													<a href="#">
-														<img src="static/assets/images/explore/person.png" alt="explore person">
+														<img src="/static/bootstrap/images/explore/person.png" alt="explore person">
 													</a>
 												</div>
 											</div>
 											<div class="col-sm-10">
 												<p>
-													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua.... 
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....
 												</p>
 											</div>
 										</div>
@@ -510,7 +510,7 @@
 						<div class=" col-md-4 col-sm-6">
 							<div class="single-explore-item">
 								<div class="single-explore-img">
-									<img src="static/assets/images/explore/e4.jpg" alt="explore image">
+									<img src="/static/bootstrap/images/explore/e4.jpg" alt="explore image">
 									<div class="single-explore-img-info">
 										<button onclick="window.location.href='#'">most view</button>
 										<div class="single-explore-image-icon-box">
@@ -533,7 +533,7 @@
 									<h2><a href="#">banglow with swiming pool</a></h2>
 									<p class="explore-rating-price">
 										<span class="explore-rating">5.0</span>
-										<a href="#"> 10 ratings</a> 
+										<a href="#"> 10 ratings</a>
 										<span class="explore-price-box">
 											form
 											<span class="explore-price">10k$-15k$</span>
@@ -545,13 +545,13 @@
 											<div class="col-sm-2">
 												<div class="explore-person-img">
 													<a href="#">
-														<img src="static/assets/images/explore/person.png" alt="explore person">
+														<img src="/static/bootstrap/images/explore/person.png" alt="explore person">
 													</a>
 												</div>
 											</div>
 											<div class="col-sm-10">
 												<p>
-													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua.... 
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....
 												</p>
 											</div>
 										</div>
@@ -576,7 +576,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="single-explore-item">
 								<div class="single-explore-img">
-									<img src="static/assets/images/explore/e5.jpg" alt="explore image">
+									<img src="/static/bootstrap/images/explore/e5.jpg" alt="explore image">
 									<div class="single-explore-img-info">
 										<button onclick="window.location.href='#'">featured</button>
 										<div class="single-explore-image-icon-box">
@@ -599,7 +599,7 @@
 									<h2><a href="#">vintage car expo</a></h2>
 									<p class="explore-rating-price">
 										<span class="explore-rating">4.2</span>
-										<a href="#"> 8 ratings</a> 
+										<a href="#"> 8 ratings</a>
 										<span class="explore-price-box">
 											form
 											<span class="explore-price">500$-1200$</span>
@@ -611,13 +611,13 @@
 											<div class="col-sm-2">
 												<div class="explore-person-img">
 													<a href="#">
-														<img src="static/assets/images/explore/person.png" alt="explore person">
+														<img src="/static/bootstrap/images/explore/person.png" alt="explore person">
 													</a>
 												</div>
 											</div>
 											<div class="col-sm-10">
 												<p>
-													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua.... 
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....
 												</p>
 											</div>
 										</div>
@@ -642,7 +642,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="single-explore-item">
 								<div class="single-explore-img">
-									<img src="static/assets/images/explore/e6.jpg" alt="explore image">
+									<img src="/static/bootstrap/images/explore/e6.jpg" alt="explore image">
 									<div class="single-explore-img-info">
 										<button onclick="window.location.href='#'">best rated</button>
 										<div class="single-explore-image-icon-box">
@@ -665,7 +665,7 @@
 									<h2><a href="#">thailand tour</a></h2>
 									<p class="explore-rating-price">
 										<span class="explore-rating">5.0</span>
-										<a href="#"> 15 ratings</a> 
+										<a href="#"> 15 ratings</a>
 										<span class="explore-price-box">
 											form
 											<span class="explore-price">5k$-10k$</span>
@@ -677,13 +677,13 @@
 											<div class="col-sm-2">
 												<div class="explore-person-img">
 													<a href="#">
-														<img src="static/assets/images/explore/person.png" alt="explore person">
+														<img src="/static/bootstrap/images/explore/person.png" alt="explore person">
 													</a>
 												</div>
 											</div>
 											<div class="col-sm-10">
 												<p>
-													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua.... 
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....
 												</p>
 											</div>
 										</div>
@@ -724,7 +724,7 @@
 						<div class="testimonial-description">
 							<div class="testimonial-info">
 								<div class="testimonial-img">
-									<img src="static/assets/images/clients/c1.png" alt="clients">
+									<img src="/static/bootstrap/images/clients/c1.png" alt="clients">
 								</div><!--/.testimonial-img-->
 								<div class="testimonial-person">
 									<h2>Tom Leakar</h2>
@@ -749,7 +749,7 @@
 						<div class="testimonial-description">
 							<div class="testimonial-info">
 								<div class="testimonial-img">
-									<img src="static/assets/images/clients/c2.png" alt="clients">
+									<img src="/static/bootstrap/images/clients/c2.png" alt="clients">
 								</div><!--/.testimonial-img-->
 								<div class="testimonial-person">
 									<h2>monirul islam</h2>
@@ -774,7 +774,7 @@
 						<div class="testimonial-description">
 							<div class="testimonial-info">
 								<div class="testimonial-img">
-									<img src="static/assets/images/clients/c3.png" alt="clients">
+									<img src="/static/bootstrap/images/clients/c3.png" alt="clients">
 								</div><!--/.testimonial-img-->
 								<div class="testimonial-person">
 									<h2>Shohrab Hossain</h2>
@@ -799,7 +799,7 @@
 						<div class="testimonial-description">
 							<div class="testimonial-info">
 								<div class="testimonial-img">
-									<img src="static/assets/images/clients/c4.png" alt="clients">
+									<img src="/static/bootstrap/images/clients/c4.png" alt="clients">
 								</div><!--/.testimonial-img-->
 								<div class="testimonial-person">
 									<h2>Tom Leakar</h2>
@@ -824,7 +824,7 @@
 						<div class="testimonial-description">
 							<div class="testimonial-info">
 								<div class="testimonial-img">
-									<img src="static/assets/images/clients/c1.png" alt="clients">
+									<img src="/static/bootstrap/images/clients/c1.png" alt="clients">
 								</div><!--/.testimonial-img-->
 								<div class="testimonial-person">
 									<h2>Tom Leakar</h2>
@@ -849,7 +849,7 @@
 						<div class="testimonial-description">
 							<div class="testimonial-info">
 								<div class="testimonial-img">
-									<img src="static/assets/images/clients/c2.png" alt="clients">
+									<img src="/static/bootstrap/images/clients/c2.png" alt="clients">
 								</div><!--/.testimonial-img-->
 								<div class="testimonial-person">
 									<h2>monirul islam</h2>
@@ -874,7 +874,7 @@
 						<div class="testimonial-description">
 							<div class="testimonial-info">
 								<div class="testimonial-img">
-									<img src="static/assets/images/clients/c3.png" alt="clients">
+									<img src="/static/bootstrap/images/clients/c3.png" alt="clients">
 								</div><!--/.testimonial-img-->
 								<div class="testimonial-person">
 									<h2>Shohrab Hossain</h2>
@@ -899,7 +899,7 @@
 						<div class="testimonial-description">
 							<div class="testimonial-info">
 								<div class="testimonial-img">
-									<img src="static/assets/images/clients/c4.png" alt="clients">
+									<img src="/static/bootstrap/images/clients/c4.png" alt="clients">
 								</div><!--/.testimonial-img-->
 								<div class="testimonial-person">
 									<h2>Tom Leakar</h2>
@@ -929,7 +929,7 @@
 		<!-- statistics strat -->
 		<section id="statistics"  class="statistics">
 			<div class="container">
-				<div class="statistics-counter"> 
+				<div class="statistics-counter">
 					<div class="col-md-3 col-sm-6">
 						<div class="single-ststistics-box">
 							<div class="statistics-content">
@@ -962,10 +962,10 @@
 							<h3>happy clients</h3>
 						</div><!--/.single-ststistics-box-->
 					</div><!--/.col-->
-				</div><!--/.statistics-counter-->	
+				</div><!--/.statistics-counter-->
 			</div><!--/.container-->
 
-		</section><!--/.counter-->	
+		</section><!--/.counter-->
 		<!-- statistics end -->
 
 		<!--blog start -->
@@ -980,7 +980,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="single-blog-item">
 								<div class="single-blog-item-img">
-									<img src="static/assets/images/blog/b1.jpg" alt="blog image">
+									<img src="/static/bootstrap/images/blog/b1.jpg" alt="blog image">
 								</div>
 								<div class="single-blog-item-txt">
 									<h2><a href="#">How to find your Desired Place more quickly</a></h2>
@@ -994,7 +994,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="single-blog-item">
 								<div class="single-blog-item-img">
-									<img src="static/assets/images/blog/b2.jpg" alt="blog image">
+									<img src="/static/bootstrap/images/blog/b2.jpg" alt="blog image">
 								</div>
 								<div class="single-blog-item-txt">
 									<h2><a href="#">How to find your Desired Place more quickly</a></h2>
@@ -1008,7 +1008,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="single-blog-item">
 								<div class="single-blog-item-img">
-									<img src="static/assets/images/blog/b3.jpg" alt="blog image">
+									<img src="/static/bootstrap/images/blog/b3.jpg" alt="blog image">
 								</div>
 								<div class="single-blog-item-txt">
 									<h2><a href="#">How to find your Desired Place more quickly</a></h2>
@@ -1022,7 +1022,7 @@
 					</div>
 				</div>
 			</div><!--/.container-->
-			
+
 		</section><!--/.blog-->
 		<!--blog end -->
 
@@ -1047,11 +1047,11 @@
 								</button>
 							</form>
 						</div>
-					</div>	
+					</div>
 				</div>
 			</div>
 
-		</section><!--/subscription-->	
+		</section><!--/subscription-->
 		<!--subscription end -->
 
 		<!--footer start-->
@@ -1086,55 +1086,55 @@
 						<div class="col-sm-7">
 							<div class="footer-social">
 								<span><i class="fa fa-phone"> +1  (222) 777 8888</i></span>
-								<a href="#"><i class="fa fa-facebook"></i></a>	
+								<a href="#"><i class="fa fa-facebook"></i></a>
 								<a href="#"><i class="fa fa-twitter"></i></a>
 								<a href="#"><i class="fa fa-linkedin"></i></a>
 								<a href="#"><i class="fa fa-google-plus"></i></a>
 							</div>
 						</div>
 					</div>
-					
+
 				</div><!--/.hm-footer-copyright-->
 			</div><!--/.container-->
 
 			<div id="scroll-Top">
 				<div class="return-to-top">
-					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+					<i class="fa fa-angle-up " id="scroll-top2" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
 				</div>
-				
+
 			</div><!--/.scroll-Top-->
-			
+
         </footer><!--/.footer-->
 		<!--footer end-->
-		
+
 		<!-- Include all js compiled plugins (below), or include individual files as needed -->
 
-		<script src="static/assets/js/jquery.js"></script>
-        
+		<script src="/static/bootstrap/js/jquery.js"></script>
+
         <!--modernizr.min.js-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-		
+
 		<!--bootstrap.min.js-->
-        <script src="static/assets/js/bootstrap.min.js"></script>
-		
+        <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
 		<!-- bootsnav js -->
-		<script src="static/assets/js/bootsnav.js"></script>
+		<script src="/static/bootstrap/js/bootsnav.js"></script>
 
         <!--feather.min.js-->
-        <script  src="static/assets/js/feather.min.js"></script>
+        <script  src="/static/bootstrap/js/feather.min.js"></script>
 
         <!-- counter js -->
-		<script src="static/assets/js/jquery.counterup.min.js"></script>
-		<script src="static/assets/js/waypoints.min.js"></script>
+		<script src="/static/bootstrap/js/jquery.counterup.min.js"></script>
+		<script src="/static/bootstrap/js/waypoints.min.js"></script>
 
         <!--slick.min.js-->
-        <script src="static/assets/js/slick.min.js"></script>
+        <script src="/static/bootstrap/js/slick.min.js"></script>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-		     
+
         <!--Custom JS-->
-        <script src="static/assets/js/custom.js"></script>
-        
+        <script src="/static/bootstrap/js/custom.js"></script>
+
     </body>
-	
+
 </html>
