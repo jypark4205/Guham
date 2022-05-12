@@ -1,4 +1,4 @@
-package devDevilz.Guham.Entity;
+package devDevilz.Guham.entity;
 
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
@@ -14,26 +14,27 @@ public class UserEntity {
 
     @Id
     @GeneratedValue
-    private Long userId;
-    private String userName;
-    private String userNickname;
-    private String userPw;
-    private String userPwConfirm;
-    private String userGender;
-    private String userImage;
-    private String userProfile;
-    private String userEmail;
-    private String userAdminmemo;
-    private String userPhone;
-    private String userPhoneAuthNum;
-    private String userAddressSi;
-    private String userAddressGu;
-    private String userAddressDong;
-    private String userZipcode;
+    private Long id;
+    private String name;
+    private String nickname;
+    private String password;
+    private String passwordConfirm;
+    private String enabled;
+    private String gender;
+    private String image;
+    private String profile;
+    private String email;
+    private String adminmemo;
+    private String phone;
+    private String phoneAuthNum;
+    private String addressSi;
+    private String addressGu;
+    private String addressDong;
+    private String zipcode;
     private String latitude;
     private String longitude;
-    private String userBirth;
-    private String userType;
+    private String birth;
+    private String type;
     @CreationTimestamp
-    private Date userRegDate;
+    private Date regDate;
 }

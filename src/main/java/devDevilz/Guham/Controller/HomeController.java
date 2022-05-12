@@ -1,4 +1,4 @@
-package devDevilz.Guham.Controller;
+package devDevilz.Guham.controller;
 
 
 import lombok.AllArgsConstructor;

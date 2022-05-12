@@ -6,7 +6,6 @@
     <link href="/static/bootstrap/css/signup.css" rel="stylesheet" id="bootstrap-css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-
 </head>
 <body>
 <section class="h-100 h-custom gradient-custom-2">
@@ -23,16 +22,31 @@
     </div>
 
     <div class="c2">
+
       <form class="signup">
-        <h1 class="signup1">SIGN UP</h1>
-        <br><br><br><br>
-        <input name="username" type="text" placeholder="Username*" class="username"/>
+        <h1 class="signup1">회원가입</h1>
+        <br>
+        <input name="userName" type="text" placeholder="이름*" class="username"/>
+        <input name="userNickname" type="text" placeholder="닉네임*" class="username"/>
+        <input name="password" type="password" placeholder="비밀번호*" class="username"/>
+        <input name="passwordConfirm" type="password" placeholder="비밀번호 재확인*" class="username"/>
 
-        <input name="email" type="text" placeholder="Email*" class="username"/>
 
-        <input name="password" type="password" placeholder="Password*" class="username"/>
+        <select class="username" >
+          <option value="1" disabled>성별</option>
+          <option value="2">여자</option>
+          <option value="3">남자</option>
+        </select>
+
+
+        <input name="userEmail" type="text" placeholder="이메일*" class="username"/>
+
+        <input class="form-control form-control-lg" id="formFileLg" type="file" />
+        <div class="small text-muted mt-2">Upload your CV/Resume or any other relevant file. Max file
+          size 50 MB</div>
 
         <button class="btn">Sign Up</button>
+
       </form>
 
       <form class="signin">
